@@ -7,6 +7,9 @@ var total = document.getElementById("sum");
 var sum = 0;
 function processForm(e) {
   if (e.preventDefault) e.preventDefault();
+  if (typeof inp.value == NaN) {
+    return false;
+  }
   sum = sum + parseInt(inp.value);
 
   total.innerHTML = sum;
