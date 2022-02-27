@@ -20,13 +20,13 @@ ol {
 
 #sum {
   position: absolute;
-  top: 100px;
+  top: 200px;
   left: 400px;
 }
 
 @media screen and (max-width: 480px) {
   #sum {
-    top: 120px;
+    top: 200px;
     left: 250px;
   }
 }
