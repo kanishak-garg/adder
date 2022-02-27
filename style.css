@@ -1,6 +1,7 @@
 #display {
   display: flex;
   flex-direction: row;
+  padding: 20px;
 }
 
 ol {
@@ -10,6 +11,7 @@ ol {
 #display ol li {
   font-size: 25px;
   padding: 3px;
+  padding-left: 8px;
 }
 
 #display ul li {
